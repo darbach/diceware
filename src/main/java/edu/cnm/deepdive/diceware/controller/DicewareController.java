@@ -4,6 +4,7 @@ import edu.cnm.deepdive.diceware.model.dao.PassphraseRepository;
 import edu.cnm.deepdive.diceware.model.entity.Passphrase;
 import edu.cnm.deepdive.diceware.model.entity.Word;
 import edu.cnm.deepdive.diceware.service.PassphraseGenerator;
+import java.util.NoSuchElementException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
